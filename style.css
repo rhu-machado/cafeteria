@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+header{
+    background-color:sienna;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    width: 100%;
+    color: blanchedalmond;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#navMain{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1{
+    font-size: 25pt;
+    font-weight: 500;
+}
+
+ul{
+    width: 40vw;
+    height: 4vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+li{
+    list-style: none;
+   
+}
+li:hover{
+    color:rgb(104, 51, 35);
+    cursor:pointer;
+    border-bottom: solid 1px;
+}
+
+img{
+    width: 450px;
+}
+
+.social{
+    background-color: blanchedalmond;
+    padding: 1px;
+    border-radius: 10px;
+    width: 10%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social img{
+    height:100%;
+    width: auto;
+    margin: 0 4px;
+}
+
+.social img:hover{
+    cursor:pointer;
+}
+
+#subMenu{
+    display:flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 30pt;
+}
+
+
+figure{
+    display: flex;
+    width: 43vw;
+}
+
+#xicara{
+    width:100%;
+}
+
+/*MAIN*/
+
+main{
+    width: 100%;
+    height: 400vh;
+}
+
+section{
+    height: 120vh;
+}
+
+#cafeTitle{
+    color: rgb(104, 51, 35);
+    text-align: center;
+    height: 25vh;
+    line-height: 30vh;
+}
+
+#cafeText{
+    padding: 8% 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cafeText h3{
+    padding: 15px 5px;
+}
+
+#cafeText p{
+    padding: 8px;
+    height: auto;
+    width: 240px;
+    text-align: justify;
+}
+
+#cafeText div{
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(104, 51, 35, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: auto;
+}

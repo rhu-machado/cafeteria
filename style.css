@@ -40,12 +40,17 @@ ul{
 
 li{
     list-style: none;
-   
+    color: blanchedalmond;
 }
+
 li:hover{
     color:rgb(104, 51, 35);
     cursor:pointer;
     border-bottom: solid 1px;
+}
+
+a{
+    text-decoration: none;
 }
 
 img{
@@ -104,10 +109,10 @@ main{
 }
 
 section{
-    height: 120vh;
+    height: auto;
 }
 
-#cafeTitle{
+.cafeTitle{
     color: rgb(104, 51, 35);
     text-align: center;
     height: 25vh;
@@ -137,4 +142,38 @@ section{
     border-radius: 5px;
     box-shadow: rgba(104, 51, 35, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     height: auto;
+}
+
+#cardapio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cardapioTitle{
+    color:rgb(104, 51, 35);
+}
+
+.cardapioBox{
+    height: 70vh;
+    width: 60%;
+}
+
+.cardapioBox h3{
+    background-color: burlywood;
+    color: rgb(104, 51, 35);
+    width: 8vw;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.cardapioBox div{
+    background-color: burlywood;
+    height: 50vh;
+    border-radius: 0 10px 10px 10px;
+}
+
+.cardapioBox p{
+    padding: 15px 30px;
 }
